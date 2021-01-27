@@ -1,0 +1,38 @@
+body{
+    background-image: url("./abstract-background-calculator-vector-11601750.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main{
+    border: 2px solid;
+    width: 400px;
+    height: 500;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(229, 243, 147);
+}
+
+.botn > button{
+    width: 97px;
+    height: 108px;
+    color: black;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+input{
+    width: 392px;
+    height: 62px;
+    font-size: xx-large;
+}
+.hopp{
+    height: 38px;
+    width: 46px;
+}
+h5{
+    display: inline;
+    margin-left: 60%;
+    font-size: x-large;
+    font-style: oblique;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <button class="hopp" type="button" onclick="clearResult('c')">clear</button>
+            <h5>Calculator</h5>
+            <input id="get-input" disabled type="text" class="form-control" placeholder="0">
+          </div>
+        <div class="botn">
+            <button id="Num" onclick="getResult('7')">7</button>
+            <button id="Num" onclick="getResult('8')">8</button>
+            <button id="Num" onclick="getResult('9')">9</button>
+            <button id="Num" onclick="getResult('-')">-</button>
+        </div>
+        <div class="botn">
+            <button onclick="getResult('4')">4</button>
+            <button onclick="getResult('5')">5</button>
+            <button onclick="getResult('6')">6</button>
+            <button onclick="getResult('+')">+</button>
+        </div>
+        <div class="botn">
+            <button onclick="getResult('1')">1</button>
+            <button onclick="getResult('2')">2</button>
+            <button onclick="getResult('3')">3</button>
+            <button onclick="getResult('*')">*</button>
+        </div>
+        <div class="botn">
+            <button onclick="getResult('0')">0</button>
+            <button onclick="getResult('.')">.</button>
+            <button onclick="calculation('')">=</button>
+            <button onclick="getResult('/')">/</button>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
